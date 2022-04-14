@@ -1,0 +1,208 @@
+/* add your css styles here! */
+/* add your css styles here! */
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+h1, h2, h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+
+};
+
+h5, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 500;
+    font-size: x-large;
+    padding-left: 50px;
+}
+
+#navTop{
+    background-color: rgb(163, 149, 148);
+}
+
+/*END OF NAVIGATION SECTION*/
+
+
+/*HERO SECTION*/
+
+#jumbotronTop{
+    background-image: url("../img/makanan.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:600px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#jumboBody{
+    position: relative;
+    top: 20%;
+}
+
+.lead{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+.display-4{
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 200;
+    color: white;
+}
+
+.btn-primary{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 345px;
+}
+
+/*END OF HERO SECTION*/
+
+
+
+
+/*DESCRIPTION SECTION*/
+
+.description{
+    clear: none;
+    margin-top: 0;
+    padding: 60px;
+    text-align: center;
+    width: auto;
+    background-color: #EDEBD7;
+    height: 400px;
+}
+
+.description h2{
+    margin: 30px;
+    color: #6E675F;
+}
+
+.description h5{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 400;
+    color: #6E675F;
+}
+
+/*END OF DESCRIPTION SECTION*/
+
+
+/*CITIES SECTION*/
+.col-sm img{
+
+    max-width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#citiesSec{
+    height: auto;
+    background-color: #EDEBD7;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.col-sm{
+    padding:0;
+}
+
+.placeText h2{
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #6E675F;
+}
+
+.placeText p{
+    margin:auto;
+    padding-bottom: 50px;
+    color: #6E675F;
+}
+
+.placeText{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+/*END CITIES SECTION*/
+
+
+/*FOOD SECTION*/
+#foodPic{
+margin:auto;
+width: auto;
+height: auto;
+}
+
+#foodLeft{
+    padding-top:350px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #A39594;
+    color: white;
+}
+
+
+#foodRight{
+    padding-top:350px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #E3B23C;
+}
+
+
+#footerLogo{
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 1000;
+    font-size: x-large;
+    padding-left: 50px;
+    background-color: #EDEBD7;
+}
+
+#foodRight p{
+    font-size: 18px;
+}
+
+#foodLeft p{
+    font-size: 18px;
+}
+
+#foodRight h2{
+    padding-bottom: 30px;
+}
+
+#foodLeft h2{
+    padding-bottom: 30px;
+}

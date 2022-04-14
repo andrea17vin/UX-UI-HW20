@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+  
+  <!--CSS STYLE SHEET-->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+
+
+<body>
+
+
+<!--NAVIGATION BAR-->
+  <nav class="navbar navbar-expand-sm navbar-dark" id="navTop">
+    <a class="navbar-brand" href="#">jajanan</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Destinations</a>
+        </li>    
+      </ul>
+    </div>  
+  </nav>
+
+
+
+  <!--BIG JUMBOTRON TOP-->
+<div class="jumbotron top jumbotron-fluid" id="jumbotronTop">
+    <div class="container" id='jumboBody'>
+      <p class="lead">travel and dine</p>
+      <h1 class="display-4">Explore Indonesian Food</h1>
+      <a class="btn btn-primary btn-lg" href="#" role="button" id="topButton">Learn more</a>
+    </div>
+</div>
+
+
+<!--BODY DESCRIPTION-->
+<div class="container-fluid description">
+  <h2>
+  An Explosion of Flavors
+</h2>
+  <h5>
+<p>Indonesian cuisine varies greatly by region and has many different influences. It  often demonstrates complex flavour, acquired from certain ingredients and bumbu spices mixture. </p>
+<p>Indonesian dishes have rich flavours; most often described as savory, hot and spicy, and also combination of basic tastes such as sweet, salty, sour and bitter.</p>
+</h5>
+  </h5>
+
+</div>
+
+
+
+
+
+<!--3 Cities Section-->
+<div class="container-fluid" id="citiesSec">
+  <div class="row" >
+
+    <div class="col-sm">
+        <img src="img/jakarta1.png">
+        <div class="placeText">
+        <h2>Jakarta</h2>
+        <p>Indonesia’s capital city, Jakarta is a historic mix of cultures 
+        from Javanese, Malay, Chinese, Arab, Indian and European.</p>
+         <button type="button" class="btn btn-secondary">Explore</button>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <img src="img/Jogja1.png">
+      <div class="placeText">
+      <h2>Yogyakarta</h2>
+      <p>Often called “Jogja”, 
+        they are known for its traditional arts and cultural heritage.</p>
+         <button type="button" class="btn btn-secondary">Explore</button>
+      </div>
+     </div>
+
+    <div class="col-sm">
+      <img src="img/bali1.png">
+      <div class="placeText">
+        <h2>Bali</h2>
+        <p>Well-known holiday destination across the globe 
+        with blends of culture, nature, and culinary delights.</p>
+         <button type="button" class="btn btn-secondary">Explore</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+<!--FOOD SECTION-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="foodPic">
+      <img src="img/kuning1.png">
+    </div>
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="foodRight">
+      <h2>Nasi Kuning</h2>
+      <p>Nasi kuning, or sometimes called nasi kunyit, is an Indonesian fragrant rice dish cooked with coconut milk and turmeric, 
+      hence the name nasi kuning.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12"  id="foodLeft" >
+      <h2>Nasi Gudeg</h2>
+      <p>Gudeg is a traditional Javanese cuisine from Yogyakarta and Central Java, Indonesia. 
+        Gudeg is made from young unripe jack fruit stewed for several hours with palm sugar, 
+        and coconut milk.</p>
+      <p>Vegetarian Friendly</p>
+      <p>Spicy!</p>
+    </div>
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="foodPic" style="background-color: #A39594;">
+      <img src="img/nasigudeg1.png">
+    </div>
+  </div>
+  <div class="row">
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="foodPic">
+      <img src="img/klepon1.png" style="background-color: #E3B23C;">
+    </div>
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="foodRight">
+      <h2>Klepon</h2>
+      <p>Klepon, or kelepon, is a snack of sweet rice cake balls 
+        filled with molten palm sugar and coated in grated coconut. </p>
+        <p>Vegan and Vegetarian Friendly</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="foodLeft">
+      <h2>Es Cendol</h2>
+      <p>Cendol is an iced sweet dessert that 
+        contains droplets of green rice flour jelly, 
+        coconut milk and palm sugar syrup.</p>
+        <p>Vegan and Vegetarian Friendly</p>
+    </div>
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12" id="foodPic" style="background-color: #A39594;">
+      <img src="img/cendol1.png">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--BOTTOM FOOTER-->
+
+<div class="jumbotron footer text-center" style="margin-bottom:0" id="footerLogo">
+  <p>jajanan</p>
+</div>
+
+</body>
+</html>
